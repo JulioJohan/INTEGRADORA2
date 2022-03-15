@@ -66,15 +66,19 @@ Se estima un costo alrededor de $500.
 
 <!-- Objetivos -->
 #### Objetivos.
-Indicar los objetivos del proyecto.
+-Desarollar una aplicación móvil y web para facilitar la gestión de tareas.
+-Apoyar al alumno con un mejor manejo de tareas y a equipos de trabajo que colaboran en un proyecto.
 
 <!-- Organigrama -->
 #### Organigrama.
 Rol
 Integrante
 Líder: Mendoza Ramírez María Guadalupe 
+
 Analista: Aguilar Castillo Karla Denisse
+
 Diseñador: Guerrero Rodríguez Itzel Juliza
+
 Programador: 
 Aguilar Castillo Karla Denisse
 Jaramillo Mejía Julio Johan
@@ -145,7 +149,8 @@ Agregar la imagen de los Casos de Uso.
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
-En ésta sección se indicará los artefactos generados en base a la solución.
+![image](https://user-images.githubusercontent.com/90641538/158439236-6173c30b-73bd-4370-8743-2e94de35ebdc.png)
+
 
 <!-- Modelo Relacional -->
 #### Modelo Relacional.
