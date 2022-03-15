@@ -58,7 +58,11 @@ Requisitos.
 
 <!-- Descripción -->
 #### Descripción.
-Indicar la descripción del proyecto (tiempo, costo y calidad).
+La idea es implementar una aplicación móvil híbrida y web que gestione la información correspondiente a tareas escolares mediante una base de datos. El funcionamiento del aplicativo es sencillo, ya que sólo consiste en un CRUD para agregar, eliminar o actualizar tareas mediante una interfaz intuitiva.
+
+Por otro lado, el complemento de la aplicación es una pequeña lámpara que incluye un led RGB, esta permanece en color verde mientras no se han agregado tareas o se han terminado las tareas asignadas, cambia a color rojo cuando se agrega una nueva tarea y permanece en ese estado mientras haya tareas por realizar. Se pretende que la lámpara esté ubicada en un lugar visible, el escritorio por ejemplo, influyendo psicológicamente con el color rojo en la persona para que realice las tareas pendientes, y al terminarlas el color verde le hará sentir paz y tranquilidad ya que no habrá tareas pendientes. 
+Tiempo: 5 horas semanales por desarrollador. 20 horas aproximadamente por semana (4 desarrolladores). 9 semanas aproximadamente.
+Se estima un costo alrededor de $500.
 
 <!-- Objetivos -->
 #### Objetivos.
@@ -66,11 +70,22 @@ Indicar los objetivos del proyecto.
 
 <!-- Organigrama -->
 #### Organigrama.
-Organigrama.
+Rol
+Integrante
+Líder: Mendoza Ramírez María Guadalupe 
+Analista: Aguilar Castillo Karla Denisse
+Diseñador: Guerrero Rodríguez Itzel Juliza
+Programador: 
+Aguilar Castillo Karla Denisse
+Jaramillo Mejía Julio Johan
+Mendoza Ramírez María Guadalupe.
+Tester: Guerrero Rodríguez Itzel Juliza
+
+
 
 <!-- Diagrama Gantt -->
 #### Diagrama Gantt.
-Diagrama Gantt.
+https://docs.google.com/spreadsheets/u/0/d/1dXE_BR3Gz3d_TjFGfFCTWc7TmBTwU3J8/edit 
 
 <!-- Análisis del proyecto -->
 ## Análisis de la Solución.
@@ -78,7 +93,49 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 <!-- Requerimientos -->
 #### Requerimientos.
-Listado de los requerimientos (código requerimiento, descripción)
+Funcionales:
+
+Número de requisito: RF01
+Nombre de requisito: Registro de usuarios
+Descripción: El aplicativo permite el registro de usuarios mediante suministro de datos: Nombre y Apellido, e-mail,usuario y contraseña.
+
+Número de requisito: RF02
+Nombre de requisito: Inicio de sesión
+Descripción: El usuario podrá acceder al aplicativo mediante un inicio de sesión al ingresar el usuario y contraseña previamente registrados.
+
+Número de requisito: RF03
+Nombre de requisito:Gestión de tareas
+Descripción: El usuario podrá realizar las siguientes acciones: agregar, consultar, modificar y eliminar tareas.
+Cada tarea debe tener los siguientes datos:
+  Id autogenerado por la aplicación.*
+  Nombre de la tarea.*
+  Descripción.*
+  Fecha de entrega.*
+  Estado (terminado o pendiente. En caso de marcar “terminado”, la tarea se eliminará.)*
+  *Datos obligatorios.
+
+No funcionales: 
+
+Número de requisito: RNF01
+Nombre de requisito: Especificación de registro
+Descripción: El correo debe ser válido e irrepetible.
+La contraseña debe contener un mínimo de seis caracteres sin restricciones.
+Llenado de todos los campos solicitados.
+
+Número de requisito: RNF02
+Nombre de requisito: Recuperación de contraseña
+Descripción: El aplicativo permite la restauración de la contraseña mediante el correo electrónico registrado por el usuario.
+
+Número de requisito: RNF03
+Nombre de requisito: Almacenamiento de información
+Descripción: El aplicativo almacena la información en una base de datos MongoDB.
+
+De comunicación:
+
+Número de requisito: RDC01
+Nombre de requisito: Comunicación con la lámpara
+Descripción: La lámpara (arduino) tendrá comunicación con el servidor y la base de datos tendrá una reacción, si el usuario tiene proyectos (tareas) agregados la lámpara encenderá el led rojo y permanecerá hasta que el usuario no tenga tareas, cambiando el color a verde.
+
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
