@@ -158,7 +158,8 @@ Esquema de la base de datos (nombre de campo, tipo de datos, restricciones, etc)
 
 <!-- Diagrama de Clases -->
 #### Diagrama de Clases.
-Esquema de las clases empleadas (atributos y sus métodos).
+![image](https://user-images.githubusercontent.com/90641538/158936681-849a24f7-c7b7-401e-9ad4-1f2b38cac41f.png)
+
 
 <!-- Diagrama de Componentes -->
 #### Diagrama de Componentes.
