@@ -36,7 +36,6 @@ const ProyectosProvider = ({children}) =>{
 
     useEffect(()=> {
         const obtenerProyectos = async () => {
-            setCargando(true)
             try{
                     //Comprobacion del token
                 const token = localStorage.getItem('token')
@@ -58,7 +57,7 @@ const ProyectosProvider = ({children}) =>{
         }
     }
         obtenerProyectos()
-    },[])
+    },[auth])
 
     useEffect(()=>{
         socket = io(import.meta.env.VITE_BACKEND_URL )
@@ -154,6 +153,7 @@ const ProyectosProvider = ({children}) =>{
         }
     }
 const obtenerProyecto = async id => {
+    setCargando(true)
     try{
          //Comprobacion del token
          const token = localStorage.getItem('token')
@@ -235,7 +235,7 @@ const obtenerProyecto = async id => {
        
     }
 
-    const crearTarea = async tarea =>{
+    const crearTarea = async tarea => {
          //Enviando la informacion hacia la API
          try{
             const token = localStorage.getItem('token')
@@ -250,9 +250,6 @@ const obtenerProyecto = async id => {
             }
             const {data} = await clienteAxios.post('/tareas',tarea, config)
           
-            // const proyectoActualizado = {...proyecto}
-            // proyectoActualizado.tareas = [...proyecto.tareas, data]
-            // setProyecto(proyectoActualizado)
             //Reiniciando la alerta
             setAlerta({})
             //Reiniciando el modal del formulario
@@ -472,12 +469,12 @@ const obtenerProyecto = async id => {
     }
 
     //Socket io
-    const submitTareasProyecto = (tarea) =>{
+    const submitTareasProyecto = tarea =>{
           //Agrega la tarea al state
             //Copia del proyecto
-            const proyectoActualizado = {...proyecto}
+            const proyectoActualizado = { ...proyecto }
             proyectoActualizado.tareas = [...proyectoActualizado.tareas, tarea]
-            setProyecto(proyectoActualizado )
+            setProyecto(proyectoActualizado)
     }
     const eliminarTareaProyecto = tarea =>{
              //DOOM
