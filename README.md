@@ -18,6 +18,8 @@
       <a href="#análisis-de-la-solución">Análisis de la Solución</a>
       <ul>
         <li><a href="#requerimientos">Requerimientos</a></li>
+        <table class="default">
+</table>
         <li><a href="#diagrama-casos-de-uso">Diagrama de Casos de Uso</a></li>
       </ul>
     </li>
@@ -99,46 +101,231 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 #### Requerimientos.
 Funcionales:
 
-Número de requisito: RF01
-Nombre de requisito: Registro de usuarios
-Descripción: El aplicativo permite el registro de usuarios mediante suministro de datos: Nombre y Apellido, e-mail,usuario y contraseña.
+<table class="default">
 
-Número de requisito: RF02
-Nombre de requisito: Inicio de sesión
-Descripción: El usuario podrá acceder al aplicativo mediante un inicio de sesión al ingresar el usuario y contraseña previamente registrados.
+  <tr>
+    <th scope="row">Número de requisito</th>
+    <th>RF01</th>
+  </tr>
 
-Número de requisito: RF03
-Nombre de requisito:Gestión de tareas
-Descripción: El usuario podrá realizar las siguientes acciones: agregar, consultar, modificar y eliminar tareas.
+  <tr>
+    <th>Nombre </th>
+    <td>Registro de usuarios</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>El aplicativo permite el registro de usuarios mediante suministro de datos: Nombre y Apellido, e-mail,usuario y contraseña.</td>
+ </tr>
+</table>
+
+<table class="default">
+
+  <tr>
+    <th scope="row">Número de requisito</th>
+    <th>RF02</th>
+  </tr>
+
+  <tr>
+    <th>Nombre </th>
+    <td>Inicio de sesión</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>El usuario podrá acceder al aplicativo mediante un inicio de sesión al ingresar el usuario y contraseña previamente registrados.
+
+</td>
+ </tr>
+</table>
+
+<table class="default">
+
+  <tr>
+    <th scope="row">Número de requisito</th>
+    <th>RF03</th>
+  </tr>
+
+  <tr>
+    <th>Nombre </th>
+    <td>Gestión de proyectos</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>El usuario podrá realizar las siguientes acciones: agregar,   consultar, modificar y eliminar proyectos.
 Cada tarea debe tener los siguientes datos:
-  Id autogenerado por la aplicación.*
-  Nombre de la tarea.*
-  Descripción.*
-  Fecha de entrega.*
-  Estado (terminado o pendiente. En caso de marcar “terminado”, la tarea se eliminará.)*
-  *Datos obligatorios.
+Id autogenerado por la aplicación. *
+Nombre del proyecto. *
+Descripción. *
+Fecha de entrega. *
+Cliente
+Creador *
+Colaboradores
+*Datos obligatorios.
+</td>
+ </tr>
+</table>
 
-No funcionales: 
+<table class="default">
 
-Número de requisito: RNF01
-Nombre de requisito: Especificación de registro
-Descripción: El correo debe ser válido e irrepetible.
+  <tr>
+    <th scope="row">Número de requisito</th>
+    <th>RF04</th>
+  </tr>
+
+  <tr>
+    <th>Nombre </th>
+    <td>Gestión de tareas</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>El usuario podrá realizar las siguientes acciones: agregar, consultar, modificar y eliminar tareas.
+Cada tarea debe tener los siguientes datos:
+Id autogenerado por la aplicación. *
+Nombre de la tarea. *
+Descripción. *
+Fecha de entrega. *
+Prioridad.
+Estado (terminado o pendiente). *
+Proyecto.
+*Datos obligatorios.
+</td>
+ </tr>
+</table>
+
+<table class="default">
+
+  <tr>
+    <th scope="row">Número de requisito</th>
+    <th>RF05</th>
+  </tr>
+
+  <tr>
+    <th>Nombre </th>
+    <td>Administrador del proyecto</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>Solo el administrador del proyecto podrá realizar las siguientes acciones:
+Agregar colaboradores mediante un correo.
+Administrar tareas:
+Agregar*.
+Editar*.
+Eliminar*.
+Asignación de tarea completa*.
+</td>
+ </tr>
+</table>
+
+<table class="default">
+
+  <tr>
+    <th scope="row">Número de requisito</th>
+    <th>RF06</th>
+  </tr>
+
+  <tr>
+    <th>Nombre </th>
+    <td>Colaboradores</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>Un proyecto podrá ser asignado a otros usuarios. 
+Se podrán asignar tareas a los colaboradores.
+Consulta del estado de las tareas asignadas a los colaboradores y podría poner que este completo o incompleto la tarea.
+</td>
+ </tr>
+</table>
+
+<table class="default">
+
+  <tr>
+    <th scope="row">Número de requisito</th>
+    <th>RF07</th>
+  </tr>
+
+  <tr>
+    <th>Nombre </th>
+    <td>Consultas</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>El aplicativo contará con búsqueda de proyectos mediante el nombre y de colaboradores mediante e-mail.</td>
+ </tr>
+</table>
+
+REQUERIMIENTOS NO FUNCIONALES
+
+<table class="default">
+
+  <tr>
+    <th scope="row">Identificador</th>
+    <th>RNF01</th>
+  </tr>
+
+  <tr>
+    <th>Nombre </th>
+    <td>Especificación de registro</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>El correo debe ser válido e irrepetible.
 La contraseña debe contener un mínimo de seis caracteres sin restricciones.
 Llenado de todos los campos solicitados.
+</td>
+ </tr>
+</table>
 
-Número de requisito: RNF02
-Nombre de requisito: Recuperación de contraseña
-Descripción: El aplicativo permite la restauración de la contraseña mediante el correo electrónico registrado por el usuario.
+<table class="default">
 
-Número de requisito: RNF03
-Nombre de requisito: Almacenamiento de información
-Descripción: El aplicativo almacena la información en una base de datos MongoDB.
+  <tr>
+    <th scope="row">Identificador</th>
+    <th>RNF02</th>
+  </tr>
 
-De comunicación:
+  <tr>
+    <th>Nombre </th>
+    <td>Recuperación de contraseña</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>El aplicativo permite la restauración de la contraseña mediante el correo electrónico registrado por el usuario.</td>
+ </tr>
+</table>
 
-Número de requisito: RDC01
-Nombre de requisito: Comunicación con la lámpara
-Descripción: La lámpara (arduino) tendrá comunicación con el servidor y la base de datos tendrá una reacción, si el usuario tiene proyectos (tareas) agregados la lámpara encenderá el led rojo y permanecerá hasta que el usuario no tenga tareas, cambiando el color a verde.
+<table class="default">
+
+  <tr>
+    <th scope="row">Identificador</th>
+    <th>RNF03</th>
+  </tr>
+
+  <tr>
+    <th>Nombre </th>
+    <td>Almacenamiento de información</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>El aplicativo almacena la información en una base de datos MongoDB.</td>
+ </tr>
+</table>
+
+REQUERIMIENTOS DE COMUNICACIÓN
+
+<table class="default">
+
+  <tr>
+    <th scope="row">Identificador</th>
+    <th>RNF02</th>
+  </tr>
+
+  <tr>
+    <th>Nombre </th>
+    <td>Recuperación de contraseña</td>
+  </tr>
+<tr>
+    <th>Descripción</th>
+    <td>El aplicativo permite la restauración de la contraseña mediante el correo electrónico registrado por el usuario.</td>
+ </tr>
+</table>
 
 
 <!-- Diagrama de Casos de Uso -->
@@ -176,6 +363,7 @@ Estándares empleados en la codificación
 
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
+La aplicacion cuenta con una arquitectura basada en MVC 
 Definir los patrones empleados y de seguridad.
 
 <!-- Código Fuente -->
