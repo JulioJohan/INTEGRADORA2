@@ -386,7 +386,7 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 
 <!-- Casos de prueba -->
 #### Casos de prueba.
-Indicar los casos de prueba
+<a href="PASOS_POR_SEGUIR_PARA_LA_EVALUACIÓN">Casos de prueba</a>
 
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
