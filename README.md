@@ -73,21 +73,31 @@ Se estima un costo alrededor de $500.
 
 <!-- Organigrama -->
 #### Organigrama.
-Rol
-Integrante
-Líder: Mendoza Ramírez María Guadalupe 
 
-Analista: Aguilar Castillo Karla Denisse
+<table class="default">
 
-Diseñador: Guerrero Rodríguez Itzel Juliza
+  <tr>
+    <th scope="row">Rol</th>
+    <th>Integrante</th>
+  </tr>
 
-Programador: 
-Aguilar Castillo Karla Denisse
-Jaramillo Mejía Julio Johan
-Mendoza Ramírez María Guadalupe.
-Tester: Guerrero Rodríguez Itzel Juliza
-
-
+  <tr>
+    <th>Líder/programador </th>
+    <td>Mendoza Ramírez María Guadalupe</td>
+  </tr>
+  <tr>
+    <th>Analista/programador</th>
+    <td>Aguilar Castillo Karla Denisse</td>
+ </tr>
+ <tr>
+    <th>Diseñador/tester </th>
+    <td>Guerrero Rodríguez Itzel Juliza</td>
+ </tr>
+  <tr>
+    <th>Programador/Desarrollador </th>
+    <td>Jaramillo Mejía Julio Johan</td>
+  </tr>
+</table>
 
 <!-- Diagrama Gantt -->
 #### Diagrama Gantt.
@@ -99,12 +109,12 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 <!-- Requerimientos -->
 #### Requerimientos.
-Funcionales:
+FUNCIONALES
 
 <table class="default">
 
   <tr>
-    <th scope="row">Número de requisito</th>
+    <th scope="row">Identificador</th>
     <th>RF01</th>
   </tr>
 
@@ -121,7 +131,7 @@ Funcionales:
 <table class="default">
 
   <tr>
-    <th scope="row">Número de requisito</th>
+    <th scope="row">Identificador</th>
     <th>RF02</th>
   </tr>
 
@@ -140,7 +150,7 @@ Funcionales:
 <table class="default">
 
   <tr>
-    <th scope="row">Número de requisito</th>
+    <th scope="row">Identificador</th>
     <th>RF03</th>
   </tr>
 
@@ -167,7 +177,7 @@ Colaboradores
 <table class="default">
 
   <tr>
-    <th scope="row">Número de requisito</th>
+    <th scope="row">Identificador</th>
     <th>RF04</th>
   </tr>
 
@@ -194,7 +204,7 @@ Proyecto.
 <table class="default">
 
   <tr>
-    <th scope="row">Número de requisito</th>
+    <th scope="row">Identificador</th>
     <th>RF05</th>
   </tr>
 
@@ -218,7 +228,7 @@ Asignación de tarea completa*.
 <table class="default">
 
   <tr>
-    <th scope="row">Número de requisito</th>
+    <th scope="row">Identificador</th>
     <th>RF06</th>
   </tr>
 
@@ -238,7 +248,7 @@ Consulta del estado de las tareas asignadas a los colaboradores y podría poner 
 <table class="default">
 
   <tr>
-    <th scope="row">Número de requisito</th>
+    <th scope="row">Identificador</th>
     <th>RF07</th>
   </tr>
 
@@ -314,16 +324,16 @@ REQUERIMIENTOS DE COMUNICACIÓN
 
   <tr>
     <th scope="row">Identificador</th>
-    <th>RNF02</th>
+    <th>RC01</th>
   </tr>
 
   <tr>
     <th>Nombre </th>
-    <td>Recuperación de contraseña</td>
+    <td>Comunicación con la lámpara</td>
   </tr>
 <tr>
     <th>Descripción</th>
-    <td>El aplicativo permite la restauración de la contraseña mediante el correo electrónico registrado por el usuario.</td>
+    <td>La lámpara (arduino) tendrá comunicación con el servidor y la base de datos tendrá una reacción, si el usuario tiene proyectos (tareas) agregados la lámpara encenderá el led rojo y permanecerá hasta que el usuario no tenga tareas, cambiando el color a verde</td>
  </tr>
 </table>
 
@@ -350,8 +360,7 @@ Esquema de la base de datos (nombre de campo, tipo de datos, restricciones, etc)
 
 <!-- Diagrama de Componentes -->
 #### Diagrama de Componentes.
-Esquema de los componentes que interactúan (Modelo, Vista, Controlador, Servidor Web, Servidor de base de datos)
-
+![image](https://user-images.githubusercontent.com/90641538/161800963-e5bf7008-6db3-4825-83c3-a56159054be4.png)
 
 <!-- Implementación del proyecto -->
 ## Implementación.
@@ -364,7 +373,7 @@ Estándares empleados en la codificación
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
 La aplicacion cuenta con una arquitectura basada en MVC 
-Definir los patrones empleados y de seguridad.
+
 
 <!-- Código Fuente -->
 #### Código Fuente.
