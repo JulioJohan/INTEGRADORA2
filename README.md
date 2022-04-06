@@ -390,7 +390,6 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
-Evidencia de Ejecución de Casos de prueba.
 <a href="https://drive.google.com/file/d/11iYx1-TMeU50mZlavD8KDrWerAQXPK6k/view?usp=sharing">Pasos por seguir para la evaluación </a>
 
 <!-- Iniciando -->
