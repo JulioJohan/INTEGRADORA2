@@ -386,12 +386,12 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 
 <!-- Casos de prueba -->
 #### Casos de prueba.
-<a href="PASOS_POR_SEGUIR_PARA_LA_EVALUACIÓN">Casos de prueba</a>
+<a href="https://drive.google.com/file/d/1bJ5Mzofld8Tqc9O0wVdIlKhulEJVO2sD/view?usp=sharing">Casos de prueba</a>
 
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
 Evidencia de Ejecución de Casos de prueba.
-
+<a href="https://drive.google.com/file/d/11iYx1-TMeU50mZlavD8KDrWerAQXPK6k/view?usp=sharing">Pasos por seguir para la evaluación </a>
 
 <!-- Iniciando -->
 ## Iniciando
@@ -399,11 +399,27 @@ Iniciando.
 
 <!-- Requisitos -->
 ### Requisitos
-Requisitos de Instalación.
+SOFTWARE
+Sistema operativo igual o superior a Windows 7.
+Node.js
+
+HARDWARE
+Procesador Intel/AMD a 2.6 GHz
+4 GB de memoria RAM
+4 GB libres en el disco duro
+Resolución de pantalla de 1.280 × 1.024 o superior
+Conexión a Internet
 
 <!-- Instalación -->
 ### Instalacion
 Instalación del Software
+
+Descargar el código fuente del siguiente enlace: https://github.com/JulioJohan/INTEGRADORA2/tree/master
+Extraer los archivos y acceder mendiante ventana de comandos a la ruta donde se ha ubicado la carpeta "backend". 
+Instalar npm con el comando npm install.
+Ejecutar el comando npm run dev para levantar el servidor.
+Repetir los dos pasos anteriores denro de la carpeta "frontend"
+Dar clic en el enlace proporcionado "http://localhost:3000"
 
 
 ## Guias
