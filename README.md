@@ -340,9 +340,7 @@ REQUERIMIENTOS DE COMUNICACIÓN
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
-Agregar la imagen de los Casos de Uso.
-
-
+![image](https://user-images.githubusercontent.com/90641538/162221205-6082a77c-2835-46bc-8252-653e31506209.png)
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
@@ -377,7 +375,7 @@ La aplicacion cuenta con una arquitectura basada en MVC
 
 <!-- Código Fuente -->
 #### Código Fuente.
-Código Fuente de la solución
+https://github.com/JulioJohan/INTEGRADORA2/tree/master
 
 
 <!-- Pruebas proyecto -->
@@ -428,15 +426,16 @@ Guias de Uso.
 Contribucion.
 
 ## Licencia
-Licencia.
+Sin licencia.
 
 ## Contacto
-Contacto.
+mariagmen@gmail.com
 
 ## Participantes
-* [participante 1]()
-* [participante 2]()
-* [participante 3]()
+* [Aguilar Castillo Karla Denisse ()
+* [Guerrero Rodríguez Itzel Juliza]()
+* [Jaramillo Mejía Julio Johan ]()
+* [Mendoza Ramírez María Guadalupe]()
 
 [contribuidores-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
