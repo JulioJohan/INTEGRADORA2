@@ -362,11 +362,13 @@ Esquema de la base de datos (nombre de campo, tipo de datos, restricciones, etc)
 
 <!-- Implementación del proyecto -->
 ## Implementación.
-En ésta sección se describe  los artefactos generados en base a la solución.
+Se desarrolladon dos aplicaciones una móvil y una web.
 
 <!-- Estándares de Codificación -->
 #### Estándares Codificación.
-Estándares empleados en la codificación
+El framework con el que se decidió trabajar fue React Native para la aplicación móvil y la librería de React.js para la aplicación web.
+https://es.reactjs.org/
+https://reactnative.dev/
 
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
@@ -375,12 +377,13 @@ La aplicacion cuenta con una arquitectura basada en MVC
 
 <!-- Código Fuente -->
 #### Código Fuente.
+APP WEB
 https://github.com/JulioJohan/INTEGRADORA2/tree/master
 
+APP MÓVIL
+https://github.com/JulioJohan/MyKiuMobile_FRONTEND
+https://github.com/JulioJohan/MyKiuMobile_BACKEND
 
-<!-- Pruebas proyecto -->
-## Pruebas.
-En ésta sección se describe  los artefactos generados en base a la solución.
 
 <!-- Casos de prueba -->
 #### Casos de prueba.
@@ -392,7 +395,7 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 
 <!-- Iniciando -->
 ## Iniciando
-Iniciando.
+
 
 <!-- Requisitos -->
 ### Requisitos
@@ -411,6 +414,7 @@ Conexión a Internet
 ### Instalacion
 Instalación del Software
 
+APP WEB
 Descargar el código fuente del siguiente enlace: https://github.com/JulioJohan/INTEGRADORA2/tree/master
 Extraer los archivos y acceder mendiante ventana de comandos a la ruta donde se ha ubicado la carpeta "backend". 
 Instalar npm con el comando npm install.
@@ -418,9 +422,13 @@ Ejecutar el comando npm run dev para levantar el servidor.
 Repetir los dos pasos anteriores denro de la carpeta "frontend"
 Dar clic en el enlace proporcionado "http://localhost:3000"
 
+APP MÓVIL
+Descargar la aplicación del siguiente enlace: https://www.mediafire.com/file/09ba66i1z4yseqm/app-release.apk/file 
+Instalar la aplicación en el dispositivo móvil.
+
 
 ## Guias
-Guias de Uso.
+<a href="https://drive.google.com/file/d/1yDoXOY4d3OjfQsk77U1QaLxTqXXbgrVO/view?usp=sharing">Guía de uso de la aplicación web</a>
 
 ## contribucion
 Contribucion.
