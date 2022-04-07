@@ -422,6 +422,8 @@ Ejecutar el comando npm run dev para levantar el servidor.
 Repetir los dos pasos anteriores denro de la carpeta "frontend"
 Dar clic en el enlace proporcionado "http://localhost:3000"
 
+O simplemente utilizarla desde el navegador https://cheery-sunshine-e76f95.netlify.app/
+
 APP MÓVIL
 Descargar la aplicación del siguiente enlace: https://www.mediafire.com/file/09ba66i1z4yseqm/app-release.apk/file 
 Instalar la aplicación en el dispositivo móvil.
